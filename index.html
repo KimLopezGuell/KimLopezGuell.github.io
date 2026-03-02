@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim López Güell — Researcher & Data Scientist</title>
+    <meta name="description"
+        content="Kim López Güell — DPhil researcher at the University of Oxford specialising in pharmacoepidemiology, genomics, and machine learning for drug repurposing.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">KLG</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#software">Software &amp; Teaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <div class="hero-badge">University of Oxford · NDORMS</div>
+                    <h1 class="hero-title">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <span class="hero-name">Kim López Güell</span>
+                    </h1>
+                    <p class="hero-subtitle">DPhil Researcher in Pharmacoepidemiology, Genomics &amp; Machine Learning
+                    </p>
+                    <p class="hero-description">
+                        Leveraging real-world health data, genomics, and graph neural networks to advance drug
+                        repurposing and understand post-COVID conditions.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="https://github.com/KimLopezGuell" target="_blank" rel="noopener"
+                            class="btn btn-outline">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://es.linkedin.com/in/kim-l%C3%B3pez-g%C3%BCell-b0601b211" target="_blank"
+                            rel="noopener" class="btn btn-outline">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <div class="hero-photo-wrapper">
+                        <img src="profile.png" alt="Kim López Güell" class="hero-photo-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I am a DPhil (PhD) researcher at the <strong>University of Oxford</strong>, based in the
+                        <strong>Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences
+                            (NDORMS)</strong>,
+                        within the <strong>Prieto-Alhambra Group</strong> for Pharmaco- and Device Epidemiology.
+                    </p>
+                    <p>
+                        My research sits at the intersection of <em>real-world evidence</em>, <em>genomics</em>, and
+                        <em>machine learning</em>. I work with large-scale health databases, UK Biobank genomic data,
+                        and graph neural networks to understand and address Long COVID and post-acute sequelae of
+                        SARS-CoV-2.
+                    </p>
+                    <p>
+                        I hold an MSc in Mathematical Sciences from the University of Oxford (where my thesis on the
+                        impact of COVID-19 certification was published in <em>Frontiers in Public Health</em>), and a
+                        BSc in Mathematics and Physics from Universitat Autònoma de Barcelona. During my undergraduate
+                        years,
+                        I developed computational models of DNA flexibility and phonon transport in semiconductor
+                        superlattices
+                        at ICMAB-CSIC.
+                    </p>
+
+                    <div class="education-timeline">
+                        <div class="edu-item">
+                            <div class="edu-dot"></div>
+                            <div class="edu-info">
+                                <span class="edu-degree">DPhil Clinical Epidemiology &amp; Medical Statistics</span>
+                                <span class="edu-school">University of Oxford</span>
+                                <span class="edu-year">2023 – Present</span>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-dot"></div>
+                            <div class="edu-info">
+                                <span class="edu-degree">MSc Mathematical Sciences</span>
+                                <span class="edu-school">University of Oxford</span>
+                                <span class="edu-year">2021 – 2022</span>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-dot"></div>
+                            <div class="edu-info">
+                                <span class="edu-degree">BSc Mathematics &amp; Physics</span>
+                                <span class="edu-school">Universitat Autònoma de Barcelona</span>
+                                <span class="edu-year">2017 – 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>Core Competencies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag">R / Tidyverse</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">PyTorch / GNNs</div>
+                        <div class="skill-tag">GWAS / Genomics</div>
+                        <div class="skill-tag">OMOP CDM</div>
+                        <div class="skill-tag">Epidemiology</div>
+                        <div class="skill-tag">Drug Repurposing</div>
+                        <div class="skill-tag">Shiny Apps</div>
+                        <div class="skill-tag">Docker / GCP</div>
+                        <div class="skill-tag">C / Monte Carlo</div>
+                        <div class="skill-tag">UK Biobank</div>
+                        <div class="skill-tag">DARWIN EU</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas Section -->
+    <section class="section research" id="research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">02</span>
+                <h2 class="section-title">Research Areas</h2>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3>Pharmacoepidemiology</h3>
+                    <p>Large-scale real-world evidence studies across European health databases using the OMOP Common
+                        Data Model, contributing to the DARWIN EU and EHDEN initiatives.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+                        </svg>
+                    </div>
+                    <h3>Genomics &amp; GWAS</h3>
+                    <p>Genome-wide association studies of Long COVID and post-acute sequelae using UK Biobank, including
+                        clustering of symptom phenotypes and identifying genetic determinants.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3>Machine Learning &amp; GNNs</h3>
+                    <p>Graph neural networks (SEAL model) for drug repurposing, predicting novel drug-disease links from
+                        biomedical knowledge graphs for Long COVID therapeutics.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                    </div>
+                    <h3>Computational Biophysics</h3>
+                    <p>Coarse-grained models of DNA flexibility with multimodal correlations between base pairs, and
+                        phonon transport simulations in semiconductor superlattices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">03</span>
+                <h2 class="section-title">Selected Projects</h2>
+                <p class="section-description">A selection of research projects and open-source contributions.</p>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card project-card--featured">
+                    <div class="project-card-header">
+                        <div class="project-type">DPhil Research</div>
+                        <div class="project-links">
+                            <a href="https://github.com/KimLopezGuell/Clustering_LCPACS" target="_blank" rel="noopener"
+                                aria-label="View on GitHub" class="project-link-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Clustering Post-Acute COVID-19 Patients</h3>
+                    <p class="project-description">
+                        Latent class analysis of symptom phenotypes in post-COVID condition using UK Biobank survey
+                        data, followed by
+                        genome-wide association studies of each symptom cluster. Includes Bayesian fine-mapping, FUMA
+                        annotation,
+                        and trait enrichment analysis.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">R</span>
+                        <span class="tag">GWAS</span>
+                        <span class="tag">UK Biobank</span>
+                        <span class="tag">Clustering</span>
+                        <span class="tag">Bayesian</span>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card project-card--featured">
+                    <div class="project-card-header">
+                        <div class="project-type">DPhil Research</div>
+                    </div>
+                    <h3 class="project-title">Drug Repurposing with Graph Neural Networks</h3>
+                    <p class="project-description">
+                        SEAL-based link prediction model operating on biomedical knowledge graphs (Open Targets) to
+                        identify
+                        candidate therapeutics for Long COVID. Integrates drug-target, target-disease, and drug-disease
+                        edges
+                        with subgraph extraction and graph attention.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">GNN / SEAL</span>
+                        <span class="tag">Drug Repurposing</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-type">DPhil Research</div>
+                        <div class="project-links">
+                            <a href="https://github.com/KimLopezGuell/GeneticDeterminants_LC_PACS" target="_blank"
+                                rel="noopener" aria-label="View on GitHub" class="project-link-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Genetic Determinants of Long COVID &amp; PACS</h3>
+                    <p class="project-description">
+                        Genome-wide association studies identifying genetic risk factors for Long COVID and post-acute
+                        COVID sequelae in UK Biobank, with multi-ancestry analysis.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">R</span>
+                        <span class="tag">GWAS</span>
+                        <span class="tag">UK Biobank</span>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-type">MSc Thesis · Publication</div>
+                        <div class="project-links">
+                            <a href="https://github.com/KimLopezGuell/Covid-passport" target="_blank" rel="noopener"
+                                aria-label="View on GitHub" class="project-link-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">COVID-19 Certification Policy Impact Analysis</h3>
+                    <p class="project-description">
+                        Master's thesis: difference-in-differences analysis evaluating the impact of COVID-19 passport
+                        mandates on cases and hospitalisations in the UK. Published in <em>Frontiers in Public
+                            Health</em>.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">R</span>
+                        <span class="tag">Causal Inference</span>
+                        <span class="tag">Policy</span>
+                        <span class="tag">MSc Thesis</span>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-type">Collaborative Research</div>
+                    </div>
+                    <h3 class="project-title">Long COVID Studyathon — Immune &amp; Inflammatory PACS</h3>
+                    <p class="project-description">
+                        Multi-database federated study characterising immune and inflammatory post-acute COVID sequelae
+                        across DARWIN EU partner databases using OMOP CDM.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">R</span>
+                        <span class="tag">OMOP CDM</span>
+                        <span class="tag">DARWIN EU</span>
+                        <span class="tag">Shiny</span>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-type">BSc Thesis · Computational Physics</div>
+                        <div class="project-links">
+                            <a href="https://github.com/KimLopezGuell/DNA_multimodalcorrelated" target="_blank"
+                                rel="noopener" aria-label="View on GitHub" class="project-link-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Multimodal Correlated DNA Model</h3>
+                    <p class="project-description">
+                        BSc thesis: coarse-grained Monte Carlo simulation of DNA flexibility with multimodal
+                        correlations between base pairs. Published in <em>Nucleic Acids Research</em>.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C</span>
+                        <span class="tag">Monte Carlo</span>
+                        <span class="tag">Biophysics</span>
+                        <span class="tag">BSc Thesis</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- More on GitHub -->
+            <div class="projects-more">
+                <p>More projects and collaborative contributions on</p>
+                <div class="org-links">
+                    <a href="https://github.com/KimLopezGuell" target="_blank" rel="noopener" class="org-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        KimLopezGuell
+                    </a>
+                    <a href="https://github.com/oxford-pharmacoepi" target="_blank" rel="noopener" class="org-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        oxford-pharmacoepi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section publications" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">04</span>
+                <h2 class="section-title">Publications</h2>
+                <p class="section-description">Selected peer-reviewed publications. Full list on
+                    <a href="https://scholar.google.com/citations?hl=en&user=s9UUmpIAAAAJ" target="_blank"
+                        rel="noopener" style="color: var(--color-accent-light); font-weight: 600;">Google Scholar</a>.
+                </p>
+            </div>
+            <div class="publications-list">
+
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Clusters of post-acute COVID-19 symptoms: a latent class analysis across 9
+                            databases and 7 countries</h3>
+                        <p class="pub-authors"><strong>K. López-Güell</strong>, M. Català, D. Dedman, T. Duarte-Salles,
+                            R. Kolde et al.</p>
+                        <p class="pub-venue">Journal of Clinical Epidemiology — <span class="pub-highlight">First
+                                Author</span></p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Trends in prescription opioid use in Europe: A DARWIN EU® multinational
+                            cohort study including seven European countries</h3>
+                        <p class="pub-authors">J. Xie, K. López-Güell et al.</p>
+                        <p class="pub-venue">Frontiers in Pharmacology</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Refinement of post-COVID condition core symptoms, subtypes, determinants,
+                            and health impacts: a cohort study integrating real-world data and patient-reported outcomes
+                        </h3>
+                        <p class="pub-authors">Y. Wang, M. Alcalde-Herraiz, K. López-Güell et al.</p>
+                        <p class="pub-venue">EBioMedicine</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Immunity debt for seasonal influenza after the COVID-19 pandemic and as a
+                            result of nonpharmaceutical interventions: an ecological analysis and cohort study</h3>
+                        <p class="pub-authors">L. Chen, Y. Guo, K. López-Güell et al.</p>
+                        <p class="pub-venue">Advanced Science</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Calculating daily dose in the Observational Medical Outcomes Partnership
+                            Common Data Model</h3>
+                        <p class="pub-authors">T. Burkard, K. López-Güell et al.</p>
+                        <p class="pub-venue">Pharmacoepidemiology and Drug Safety</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">IncidencePrevalence: An R package to calculate population-level incidence
+                            rates and prevalence using the OMOP CDM</h3>
+                        <p class="pub-authors">B. Raventós, M. Català, M. Du, Y. Guo, A. Black, K. López-Güell et al.
+                        </p>
+                        <p class="pub-venue">Pharmacoepidemiology and Drug Safety</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Incidence of post-acute COVID-19 symptoms across healthcare settings in
+                            seven countries: an international retrospective cohort study</h3>
+                        <p class="pub-authors">J. Xie, K. López-Güell et al.</p>
+                        <p class="pub-venue">EClinicalMedicine (The Lancet)</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Time series methods to assess the impact of regulatory action:
+                            fluoroquinolone use in UK primary care and hospital data</h3>
+                        <p class="pub-authors">Y. Guo, B. Raventós, M. Català, L. Elhussein, K. López-Güell et al.</p>
+                        <p class="pub-venue">Pharmacoepidemiology and Drug Safety</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">The impact of COVID-19 certification mandates on the number of cases of
+                            and hospitalisations with COVID-19 in the UK: a difference-in-differences analysis</h3>
+                        <p class="pub-authors"><strong>K. López-Güell</strong> et al.</p>
+                        <p class="pub-venue">Frontiers in Public Health — <span class="pub-highlight">MSc Thesis</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Earlier work / Non-health publications -->
+            <div class="pub-earlier-header">
+                <h3>Earlier Work — Computational Physics</h3>
+            </div>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Correlated motions in DNA: beyond base-pair step models of DNA flexibility
+                        </h3>
+                        <p class="pub-authors"><strong>K. López-Güell</strong>, F. Battistini, M. Orozco</p>
+                        <p class="pub-venue">Nucleic Acids Research, Vol. 51, Issue 6 — <span class="pub-highlight">BSc
+                                Thesis / First Author</span></p>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2022</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Phonon transport in GaAs and InAs twinning superlattices</h3>
+                        <p class="pub-authors"><strong>K. López-Güell</strong> et al.</p>
+                        <p class="pub-venue">The Journal of Physical Chemistry C — <span class="pub-highlight">BSc
+                                Thesis / First Author</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software & Teaching Section -->
+    <section class="section teaching" id="software">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">05</span>
+                <h2 class="section-title">Software &amp; Teaching</h2>
+            </div>
+            <div class="teaching-grid">
+                <div class="teaching-card teaching-card--wide">
+                    <div class="teaching-icon-area">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32"
+                            height="32">
+                            <path
+                                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <div class="teaching-year">Ongoing</div>
+                    </div>
+                    <div class="teaching-info">
+                        <h3>DARWIN EU® Open-Source R Packages</h3>
+                        <p>
+                            Active developer and contributor to the DARWIN EU ecosystem of R packages for
+                            observational health research using the OMOP Common Data Model.
+                        </p>
+                        <div class="package-grid">
+                            <a href="https://cran.r-project.org/package=CohortSurvival" target="_blank" rel="noopener"
+                                class="package-badge package-badge--primary">
+                                📦 CohortSurvival <span class="badge-role">Maintainer</span>
+                            </a>
+                            <a href="https://cran.r-project.org/package=IncidencePrevalence" target="_blank"
+                                rel="noopener" class="package-badge">
+                                📦 IncidencePrevalence
+                            </a>
+                            <a href="https://cran.r-project.org/package=omock" target="_blank" rel="noopener"
+                                class="package-badge">
+                                📦 omock
+                            </a>
+                            <span class="package-badge">📦 CohortCharacteristics</span>
+                            <span class="package-badge">📦 CohortConstructor</span>
+                            <span class="package-badge">📦 DrugUtilisation</span>
+                            <span class="package-badge">📦 PatientProfiles</span>
+                            <span class="package-badge">📦 CodelistGenerator</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="teaching-card teaching-card--wide">
+                    <div class="teaching-icon-area">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32"
+                            height="32">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                        </svg>
+                        <div class="teaching-year">2023–2025</div>
+                    </div>
+                    <div class="teaching-info">
+                        <h3>Real World Evidence Summer School — University of Oxford</h3>
+                        <p>
+                            Co-instructor for three consecutive years of the Oxford Pharmacoepidemiology summer
+                            programme,
+                            teaching practical R-based analysis with OMOP CDM data, covering cohort construction,
+                            drug utilisation, survival analysis, and incidence/prevalence studies.
+                        </p>
+                        <div class="teaching-links">
+                            <a href="https://github.com/oxford-pharmacoepi/RealWorldEvidenceSummerSchool2025"
+                                target="_blank" rel="noopener" class="teaching-link">2025 →</a>
+                            <a href="https://github.com/oxford-pharmacoepi/RWE_summer_school_2024" target="_blank"
+                                rel="noopener" class="teaching-link">2024 →</a>
+                            <a href="https://github.com/oxford-pharmacoepi/RealWorldEvidenceSummerSchool2023"
+                                target="_blank" rel="noopener" class="teaching-link">2023 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">06</span>
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-description">
+                    Interested in collaboration, or just want to say hello? Feel free to reach out.
+                </p>
+            </div>
+            <div class="contact-links">
+                <a href="https://github.com/KimLopezGuell" target="_blank" rel="noopener" class="contact-card"
+                    id="contact-github">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">KimLopezGuell</span>
+                </a>
+                <a href="https://es.linkedin.com/in/kim-l%C3%B3pez-g%C3%BCell-b0601b211" target="_blank" rel="noopener"
+                    class="contact-card" id="contact-linkedin">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Kim López Güell</span>
+                </a>
+                <a href="https://www.ndorms.ox.ac.uk/" target="_blank" rel="noopener" class="contact-card"
+                    id="contact-institution">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path
+                            d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                    <span class="contact-label">Institution</span>
+                    <span class="contact-value">NDORMS, University of Oxford</span>
+                </a>
+                <a href="https://github.com/oxford-pharmacoepi" target="_blank" rel="noopener" class="contact-card"
+                    id="contact-group">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                    </svg>
+                    <span class="contact-label">Research Group</span>
+                    <span class="contact-value">Prieto-Alhambra Group</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Kim López Güell. Built with care.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
